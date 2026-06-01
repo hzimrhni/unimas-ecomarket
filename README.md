@@ -1,17 +1,46 @@
-# unimas_ecomarket
+# UNIMAS EcoMarket: A Secure Student Marketplace to Promote Sustainable Consumption Practices 
 
-A new Flutter project.
+A student-to-student used item marketplace mobile application developed for Universiti Malaysia Sarawak (UNIMAS). The system allows students to buy, sell, donate, and exchange reusable items within the campus community while promoting sustainability awareness through carbon reduction tracking.
 
-## Getting Started
+# 📱 Project Overview
 
-This project is a starting point for a Flutter application.
+UNIMAS EcoMarket is a mobile application developed using Flutter and Firebase to provide a secure and organized platform for UNIMAS students to exchange second-hand items such as books, clothing, electronics, and furniture.
 
-A few resources to get you started if this is your first Flutter project:
+The system aims to:
+- Reduce waste through item reuse
+- Help students save costs
+- Provide a secure UNIMAS-only marketplace
+- Promote sustainability awareness
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+# 🛠️ Technologies Used
+| Technology              | Purpose                      |
+| ----------------------- | ---------------------------- |
+| Flutter                 | Mobile application framework |
+| Dart                    | Programming language         |
+| Firebase Authentication | User authentication          |
+| Cloud Firestore         | Database                     |
+| Firebase Storage        | Image storage                |
+| GitHub                  | Version control              |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# 🔐 Authentication
+
+The system uses Firebase Authentication with UNIMAS student email verification to ensure that only verified students can access the marketplace.
+Example of the email:
+- example@siswa.unimas.my
+
+# 👨‍💻 Developer
+
+Muhammad Hazim Bin Rohani
+
+# 📞 Contact
+011-24175705
+hzimrhni@gmail.com | hazimrohani758@gmail.com
+
+# 🎓 Education
+Bachelor of Software Engineering with Honours
+Faculty of Computer Science and Information Technology (FCSIT)
+Universiti Malaysia Sarawak (UNIMAS)
+
+# 📄 License
+
+This project is developed for academic purposes only.
