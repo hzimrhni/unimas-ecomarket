@@ -28,18 +28,13 @@ The system uses Firebase Authentication with UNIMAS student email verification t
 Example of the email:
 - example@siswa.unimas.my
 
+# 🌱 Sustainability Feature
+
+The application includes a sustainability module that estimates carbon reduction based on reused items. Users can track their environmental contribution through accumulated carbon savings and category-based sustainability insights.
+
 # 👨‍💻 Developer
 
 Muhammad Hazim Bin Rohani
-
-# 📞 Contact
- 011-24175705
- hzimrhni@gmail.com | hazimrohani758@gmail.com
-
-# 🎓 Education
-Bachelor of Software Engineering with Honours
-Faculty of Computer Science and Information Technology (FCSIT)
-Universiti Malaysia Sarawak (UNIMAS)
 
 # 📄 License
 
