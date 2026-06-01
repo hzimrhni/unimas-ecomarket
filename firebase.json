@@ -1,0 +1,47 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "unimas-ecomarket",
+          "appId": "1:549591856286:android:48cffb41c593cadbe1f78f",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "unimas-ecomarket",
+          "configurations": {
+            "android": "1:549591856286:android:48cffb41c593cadbe1f78f",
+            "ios": "1:549591856286:ios:f4bd04d2287d7726e1f78f",
+            "macos": "1:549591856286:ios:f4bd04d2287d7726e1f78f",
+            "web": "1:549591856286:web:72d37c9bd6d09eade1f78f",
+            "windows": "1:549591856286:web:7600be47668c4839e1f78f"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+      ]
+    }
+  ],
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  }
+}

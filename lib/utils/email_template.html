@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="supported-color-schemes" content="light dark" />
+    <title>UNIMAS EcoMarket OTP</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        color-scheme: light dark;
+        supported-color-schemes: light dark;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body,
+        .email-shell {
+          background: #0f172a !important;
+        }
+
+        .email-frame {
+          background: #111827 !important;
+          color: #e5e7eb !important;
+        }
+
+        .email-card {
+          background: #1f2937 !important;
+        }
+
+        .email-title,
+        .email-greeting,
+        .email-copy,
+        .email-footer-title,
+        .email-footer-copy {
+          color: #f9fafb !important;
+        }
+
+        .email-help {
+          color: #cbd5e1 !important;
+        }
+
+        .email-link {
+          color: #7dd3fc !important;
+        }
+
+        .email-divider {
+          border-top-color: #334155 !important;
+        }
+
+        .otp-code {
+          color: #fda4af !important;
+        }
+      }
+    </style>
+  </head>
+  <body
+    class="email-shell"
+    style="
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #ffffff;
+      font-size: 14px;
+    "
+  >
+    <div
+      class="email-frame"
+      style="
+        max-width: 680px;
+        margin: 0 auto;
+        padding: 45px 30px 60px;
+        background: #f4f7ff;
+        background-image: url(https://archisketch-resources.s3.ap-northeast-2.amazonaws.com/vrstyler/1661497957196_595865/email-template-background-banner);
+        background-repeat: no-repeat;
+        background-size: 800px 452px;
+        background-position: top center;
+        font-size: 14px;
+        color: #434343;
+      "
+    >
+      <header>
+        <table style="width: 100%;">
+          <tbody>
+            <tr style="height: 0;">
+              <td>
+                <img
+                  src="cid:ecomarket-wordlogo@unimas-ecomarket"
+                  alt="UNIMAS EcoMarket"
+                  height="36"
+                  style="
+                    display: block;
+                    height: 100px;
+                    width: auto;
+                  "
+                />
+              </td>
+              <td style="text-align: right;">
+                <span
+                  style="font-size: 16px; line-height: 30px; color: #ffffff;"
+                  >$formattedDate</span
+                >
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </header>
+
+      <main>
+        <div
+          class="email-card"
+          style="
+            margin: 0;
+            margin-top: 70px;
+            padding: 92px 30px 115px;
+            background: #ffffff;
+            border-radius: 30px;
+            text-align: center;
+          "
+        >
+          <div style="width: 100%; max-width: 489px; margin: 0 auto;">
+            <h1
+              class="email-title"
+              style="
+                margin: 0;
+                font-size: 24px;
+                font-weight: 500;
+                color: #1f1f1f;
+              "
+            >
+              Hey $recipientName
+            </h1>
+            <p
+              class="email-copy"
+              style="
+                margin: 0;
+                margin-top: 12px;
+                font-weight: 500;
+                letter-spacing: 0.56px;
+              "
+            >
+              Thank you for choosing UNIMAS EcoMarket. Use the following OTP
+              to complete your sign-in procedure. Do not share it with anyone, including our staff.
+            </p>
+            <p
+              class="email-greeting"
+              style="
+                margin: 0;
+                margin-top: 50px;
+                font-size: 30px;
+                font-weight: 500;
+              "
+            >
+              <b>Your OTP</b>
+            </p>
+            <p
+              class="otp-code"
+              style="
+                margin: 0;
+                margin-top: 10px;
+                font-size: 40px;
+                font-weight: 600;
+                letter-spacing: 25px;
+                color: #ba3d4f;
+              "
+            >
+              $otp
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer
+        class="email-divider"
+        style="
+          width: 100%;
+          max-width: 490px;
+          margin: 20px auto 0;
+          text-align: center;
+          border-top: 1px solid #e6ebf1;
+        "
+      >
+        <p
+          class="email-footer-title"
+          style="
+            margin: 0;
+            margin-top: 40px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #434343;
+          "
+        >
+          UNIMAS EcoMarket
+        </p>
+        <p
+          class="email-footer-copy"
+          style="margin: 0; margin-top: 8px; color: #434343;"
+        >
+          Universiti Malaysia Sarawak
+        </p>
+        <p
+          class="email-footer-copy"
+          style="margin: 0; margin-top: 16px; color: #434343;"
+        >
+          Copyright &copy; 2026 UNIMAS EcoMarket. All rights reserved.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

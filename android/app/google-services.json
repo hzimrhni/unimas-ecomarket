@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "549591856286",
+    "project_id": "unimas-ecomarket",
+    "storage_bucket": "unimas-ecomarket.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549591856286:android:48cffb41c593cadbe1f78f",
+        "android_client_info": {
+          "package_name": "com.example.unimas_ecomarket"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApUn6Q4jgurvHfzhvzUVlqFBnpQ3zfijs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
