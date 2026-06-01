@@ -33,8 +33,8 @@ Example of the email:
 Muhammad Hazim Bin Rohani
 
 # 📞 Contact
-011-24175705
-hzimrhni@gmail.com | hazimrohani758@gmail.com
+ 011-24175705
+ hzimrhni@gmail.com | hazimrohani758@gmail.com
 
 # 🎓 Education
 Bachelor of Software Engineering with Honours
